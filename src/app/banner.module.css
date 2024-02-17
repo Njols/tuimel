@@ -1,0 +1,78 @@
+.header-container {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+.banner-container {
+  display: flex;
+  position: relative;
+  top: 2rem;
+  width: 35rem;
+  height: 15rem;
+  transform: rotate(-14deg);
+}
+
+.logo {
+  display: inline-block;
+  cursor: pointer;
+  width: 85%;
+  height: 100%;
+  background-image: url("../../public/tuimel-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.nav {
+  font-size: 2rem;
+  color: var(--blue);
+  display: inline-block;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10%;
+  margin-bottom: 11.5%;
+  padding-bottom: 2;
+
+}
+.nav a {
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  color: var(--orange);
+}
+
+.cook {
+  display: none;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .header-container {
+    width: 100%;
+  }
+  
+  .banner-container {
+    flex-direction: column;
+    top: 0;
+  }
+
+  .nav {
+    display: none;
+    visibility: hidden;
+  }
+
+  .logo {
+    width: 90%;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cook {
+    display: block;
+  }
+}

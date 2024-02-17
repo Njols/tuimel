@@ -1,0 +1,103 @@
+{ "Groups": [
+    {
+      "id": 1,
+      "type":"poetry-collection",
+      "title": "tweede editie",
+      "date": "2024-02-13 18:26:00",
+      "items": [
+        {
+            "id":1,
+          "title": "een gedicht",
+          "author": "sasja boelens"
+        },
+        {
+            "id":2,
+          "title": "een gedicht",
+          "author": "sasja boelens"
+        },
+        {
+            "id":3,
+          "title": "een gedicht",
+          "author": "sasja boelens"
+        },
+        {
+            "id":4,
+          "title": "een gedicht",
+          "author": "sasja boelens"
+        },
+        {
+            "id":10,
+          "title": "een gedicht",
+          "author": "sasja boelens"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "aankondiging",
+      "type":"announcement",
+      "date": "2024-02-11 17:26:00",
+      "items": [
+        {
+            "id":5,
+          "title": "een aankondiging",
+          "author": "sasja boelens"
+        }
+      ]
+    },
+    {
+        "id": 3,
+        "title": "aankondiging",
+        "type":"announcement",
+        "date": "2024-02-11 17:26:00",
+        "items": [
+          {
+              "id":6,
+            "title": "een aankondiging",
+            "author": "sasja boelens"
+          }
+        ]
+      },
+    {
+      "id": 4,
+      "title": "eerste editie",
+      "type":"poetry-collection",
+      "date": "2024-02-02 17:26:00",
+      "items": [
+        {
+            "id":7,
+          "title": "een gedicht",
+          "author": "sasja boelens"
+        },
+        {
+            "id":8,
+          "title": "een gedicht",
+          "author": "sasja boelens"
+        },
+        {
+            "id":9,
+          "title": "een gedicht",
+          "author": "sasja boelens"
+        },
+        {
+            "id":11,
+          "title": "een gedicht",
+          "author": "sasja boelens"
+        }
+      ]
+    },
+    {
+        "id": 5,
+        "title": "aankondiging",
+        "type":"announcement",
+        "date": "2024-02-11 17:26:00",
+        "items": [
+          {
+              "id":12,
+            "title": "een aankondiging",
+            "author": "sasja boelens"
+          }
+        ]
+      }
+  ]
+}

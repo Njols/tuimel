@@ -1,0 +1,19 @@
+.post:not(:last-child) {
+    margin-bottom: 2.5rem;
+}
+.title {
+    font-weight: bolder;
+    width: 50%;
+}
+.title:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+.author {
+    width: 45%;
+    margin-left: 5%;
+}
+.item {
+    display: inline-block;
+    vertical-align: top;
+}
